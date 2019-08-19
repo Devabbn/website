@@ -2,7 +2,7 @@
 	background-color: black;
 }
 body{
-	background-color: silver;
+	background-color: #FBFCFC;
 }
 .tesmo{
 	background-color: white;
@@ -10,9 +10,10 @@ body{
 	width: 360px;
 	height: 100px;
 	text-align: center;
+	box-shadow: 2px;
 }
 .bg{
-	background-image: url("https://freedesignfile.com/upload/2017/02/Abstract-blue-background-with-line-vector-illustration.jpg");
+	background-image: url("https://data.whicdn.com/images/85745739/superthumb.png?t=1384048051");
 	width: 600px;
 	height: 350px;
 	text-align: center;
@@ -28,11 +29,7 @@ body{
 }
 .buton{
 	border-radius:10px;
-}
-.video{
-	border: 1px solid red;
-	border-radius: 300px;
-	background-color: gray;
+	background-color: white;
 }
 .input-icons i { 
             position: absolute; 
@@ -46,6 +43,16 @@ body{
 .icon { 
             padding: 10px; 
             min-width: 40px; 
-        } 
-          
-
+        }
+ .lastcont{
+ 	height: 300px;
+ }
+.lastcontbody{
+	
+	text-align: center;
+	background-color: white;
+}
+.lastcontpic 
+{
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgfFGvzaaXiF8p6CM3B1-HeCEEgmY7lA1Fx29vGp8ECGp2aKf3");
+}
