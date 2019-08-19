@@ -1,4 +1,4 @@
-.logo{
+.sym{
 	background-color: black;
 }
 body{
@@ -10,7 +10,10 @@ body{
 	width: 360px;
 	height: 100px;
 	text-align: center;
-	box-shadow: 2px;
+	box-shadow: 3px 3px 3px gray;
+}
+.tesmo:hover, card:hover, .buton:hover{
+	background-color: #EBDEF0;
 }
 .bg{
 	background-image: url("https://data.whicdn.com/images/85745739/superthumb.png?t=1384048051");
