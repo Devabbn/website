@@ -1,0 +1,51 @@
+.logo{
+	background-color: black;
+}
+body{
+	background-color: silver;
+}
+.tesmo{
+	background-color: white;
+	border-radius: 6px;
+	width: 360px;
+	height: 100px;
+	text-align: center;
+}
+.bg{
+	background-image: url("https://freedesignfile.com/upload/2017/02/Abstract-blue-background-with-line-vector-illustration.jpg");
+	width: 600px;
+	height: 350px;
+	text-align: center;
+}
+.underblack{
+	border-bottom: 2px solid black;
+}
+.underwhite{
+	border-bottom: 2px solid white;
+}
+.alignmt{
+	text-align: center;
+}
+.buton{
+	border-radius:10px;
+}
+.video{
+	border: 1px solid red;
+	border-radius: 300px;
+	background-color: gray;
+}
+.input-icons i { 
+            position: absolute; 
+        } 
+          
+.input-icons { 
+            width: 100%; 
+            margin-bottom: 10px; 
+        } 
+          
+.icon { 
+            padding: 10px; 
+            min-width: 40px; 
+        } 
+          
+
