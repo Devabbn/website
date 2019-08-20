@@ -1,61 +1,112 @@
-.sym{
+.topp{
+
 	background-color: black;
+
 }
+.sym{
+	color: white;
+	width: 40px;
+	height: 40px;
+}
+.men{
+	float: right;
+	color: white;
+	font-size: 40px;
+}
+
 body{
-	background-color: #FBFCFC;
+
+	background-color: #F4F4F4;
+
 }
+
 .tesmo{
-	background-color: white;
-	border-radius: 6px;
-	width: 360px;
-	height: 100px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
 	text-align: center;
-	box-shadow: 3px 3px 3px gray;
+	height: 100px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.tesmo:hover, card:hover, .buton:hover{
+
+.tesmo:hover, .card:hover, .buton:hover
+{
 	background-color: #EBDEF0;
 }
-.bg{
-	background-image: url("https://data.whicdn.com/images/85745739/superthumb.png?t=1384048051");
+
+.bg
+{
+	background-image: url("hotel.png");
 	width: 600px;
-	height: 350px;
+	height: 450px;
 	text-align: center;
+	color: white;
+	z-index: auto;
 }
-.underblack{
+.underblack
+{
 	border-bottom: 2px solid black;
 }
-.underwhite{
+
+.underwhite
+{
 	border-bottom: 2px solid white;
 }
+
 .alignmt{
+
 	text-align: center;
+
 }
+
 .buton{
+
 	border-radius:10px;
+
 	background-color: white;
+
 }
-.input-icons i { 
-            position: absolute; 
-        } 
-          
-.input-icons { 
-            width: 100%; 
-            margin-bottom: 10px; 
-        } 
-          
-.icon { 
-            padding: 10px; 
-            min-width: 40px; 
-        }
- .lastcont{
- 	height: 300px;
- }
-.lastcontbody{
-	
-	text-align: center;
+.fonticon{
+		font-size: 100px;
+}
+.alarmpic{
+	width: 100px;
+	height: 100px;
+}
+.imagearea{
+
+	/*text-align: center;*/
+
 	background-color: white;
+
 }
-.lastcontpic 
+
+.imageareapic 
 {
- background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgfFGvzaaXiF8p6CM3B1-HeCEEgmY7lA1Fx29vGp8ECGp2aKf3");
+	height: 270px;
+}
+
+.footimage{
+
+	height: 202px;
+
+	width:180px;
+
+	}
+
+.foothead{
+
+	width: 1200px;
+
+	height:270px;
+
+}
+.textshade{
+	text-shadow: 1px 2px 2px black;
+}
+.linear{
+
+	background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 19.98%);
+}
+.rightfloat{
+	float: right;
 }
