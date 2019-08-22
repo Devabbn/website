@@ -1,7 +1,13 @@
 .topp{
-
 	background-color: black;
-
+}
+.margin120{
+	margin-right: 120px;
+	margin-left:  120px;
+}
+.margin5{
+	margin-right: 5px;
+	margin-left:  5px;	
 }
 .sym{
 	color: white;
@@ -13,25 +19,19 @@
 	color: white;
 	font-size: 40px;
 }
-
 body{
-
 	background-color: #F4F4F4;
-
 }
-
 .tesmo{
 	background-color: #FFFFFF;
 	border-radius: 10px;
 	text-align: center;
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 .tesmo:hover, .card:hover, .buton:hover
 {
 	background-color: #EBDEF0;
 }
-
 .bg
 {
 	background-image: url("hotel.png");
@@ -41,28 +41,28 @@ body{
 	color: white;
 	z-index: auto;
 }
+.bg1{
+	background-image: url("brans.png");
+	width: 600px;
+	height: 450px;
+	text-align: center;
+	color: white;
+	z-index: auto;
+}
 .underblack
 {
-	border-bottom: 2px solid black;
+	border-bottom: 3px solid black;
 }
-
 .underwhite
 {
-	border-bottom: 2px solid white;
+	border-bottom: 3px solid white;
 }
-
 .alignmt{
-
 	text-align: center;
-
 }
-
 .buton{
-
-	border-radius:10px;
-
+	border-radius:15px;
 	background-color: white;
-
 }
 .fonticon{
 		font-size: 100px;
@@ -70,42 +70,55 @@ body{
 .alarmpic{
 	width: 100px;
 	height: 100px;
+	align-items: center;
+	/*margin: auto 0;*/
 }
 .imagearea{
-
-	/*text-align: center;*/
-
 	background-color: white;
-
 }
-
-.imageareapic 
-{
-	height: 270px;
-}
-
 .footimage{
-
 	height: 202px;
-
 	width:180px;
-
 	}
-
 .foothead{
-
-	width: 1200px;
-
-	height:270px;
-
+		height:270px;
 }
 .textshade{
 	text-shadow: 1px 2px 2px black;
 }
 .linear{
-
 	background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 19.98%);
+}
+.heit{
+	/*height: 267px;*/
+	max-width: 103%;
+	height: auto;
 }
 .rightfloat{
 	float: right;
+}
+/* campaign page*/
+.buton1{
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 25px;
+}
+.buton2{
+	background: #000000;
+	color: white;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 25px;
+}
+.centerr{
+	margin: 0 auto;
+	justify-content: center;
+}
+.padd{
+	padding: 0 40px;
+}
+/* howwemake page*/
+.bgimage{
+	background-image: url(emailpattern.png);
 }
