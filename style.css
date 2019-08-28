@@ -27,13 +27,24 @@ body{
 	border-radius: 10px;
 	text-align: center;
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
 .tesmo:hover, .card:hover, .buton:hover
 {
 	background-color: #EBDEF0;
 }
+.contactbg{
+	background-image: url(clouds.png);
+	background-repeat: no-repeat;
+	height: 600px;
+}
+.ringbg{
+	background-image: url(calm.png);
+	height: 300px;
+}
 .bg
-{
+{	
 	background-image: url("hotel.png");
 	width: 600px;
 	height: 450px;
@@ -49,6 +60,11 @@ body{
 	color: white;
 	z-index: auto;
 }
+.bg2{
+	background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/02/3c/f6/54/filename-ttdc-youth-hostel.jpg");
+	width: 700px;
+	height: auto;
+	}
 .underblack
 {
 	border-bottom: 3px solid black;
@@ -83,19 +99,27 @@ body{
 .foothead{
 		height:270px;
 }
-.textshade{
+.textshade:hover{
 	text-shadow: 1px 2px 2px black;
 }
 .linear{
 	background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 19.98%);
 }
+.linear5{
+	background: linear-gradient(90deg, #000000 85.18%, rgba(0, 0, 0, 0) 99.84%);
+}
 .heit{
 	/*height: 267px;*/
 	max-width: 103%;
 	height: auto;
+}.heitt{
+	height: 267px;
 }
 .rightfloat{
 	float: right;
+}
+.clearfix{
+	overflow: auto;
 }
 /* campaign page*/
 .buton1{
@@ -121,4 +145,125 @@ body{
 /* howwemake page*/
 .bgimage{
 	background-image: url(emailpattern.png);
+}
+.imagecenter{
+	margin: 0 auto;
+	display: block;
+}
+/*first page*/
+.firstpage{
+	color: white;
+	font-size: 56px;
+	display: block;
+	float: right;
+	text-align: right;
+	margin-top: 145px;
+	font-weight: bold;
+}
+.firstpage small{
+	font-size: 11px;
+}
+/* 5th page */
+.sticky{
+	position: sticky;
+	top: 0;
+}
+.cardd{
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+}
+.cardd p{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+}
+.cardd h6{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+}
+@media only screen and (max-width: 768px) {
+	.quote-text{
+		font-size: 14px;
+	}
+}}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  right: 0;
+  background-color: #111111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  color: white;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 40px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media only screen and (max-width: 768px) 
+{
+	.quote{
+			font-size: 18px;
+			font-family: Roboto;
+			font-style: italic;;
+		}
+}
+@media only screen and (min-width: 768px) 
+{
+	.menumargin{
+			margin-left: 20px; 
+			margin-right: 20px;
+		}
+}
+@media only screen and (max-width: 768px) 
+{
+	.fontsize{
+			margin-left: 1px;
+			margin-right: 1px;
+		}
+}
+@media only screen and (max-width: 768px) 
+{
+	.cardsimage{
+			width: 146%;
+		}
+}
+@media only screen and (max-width: 768px) 
+{
+	.nonedisplay{
+		display: none;
+		}
 }
